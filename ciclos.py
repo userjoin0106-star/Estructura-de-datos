@@ -1,6 +1,6 @@
 def ejercicio3():
 
-    while True:
+    while True: #El while true es para generar un ciclo infinito donde se repite 
 
         print("==============================")
         print("       MENU DE NUMEROS")
@@ -28,7 +28,7 @@ def ejercicio3():
         elif opcion == 3:
 
             for numero in range(1, 101):
-                if numero % 2 != 0:
+                if numero % 2 != 0: #Colocar los simbolos != significa diferente de 
                     print(numero)
 
         elif opcion == 4:
@@ -49,7 +49,7 @@ def ejercicio3():
         elif opcion == 6:
 
             print("Programa terminado")
-            break
+            break #El break rompe el ciclo infinito
 
         else:
 
